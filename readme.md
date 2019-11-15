@@ -11,7 +11,7 @@ Ex.: entry 1967 shows "l'année n'est pas bissextile", entry 1968 shows "l'anné
 ### Second programming exercise: Zcasino.py (simulation de roulette)
 Still a standalone file, but implementation is slightly more sophisticated (but not yet advanced).
 
-This python program simulates a (casino) roulette  on which a player can bet some virtual $$$ on a number (between 0 and 49) and, either gain three times the amount (by chosing the winning number), either gain half the amount (by chosing the same colour) or loose the lot.
+This python program simulates a (casino) roulette  on which a player can bet some virtual $$$ on a number (between 0 and 49) and, either gain three times the amount (by chosing the winning number), either gain half the amount (by chosing the same colour, weither the number is odd or even) or loose the lot.
 
 This file shows the use of randrange() function from random module and ceil() function from math module, also implements bloc sequences like:
 
@@ -27,7 +27,7 @@ This file shows the use of randrange() function from random module and ceil() fu
 ### Third programming exercise: donnees.py, fonctions.py and pendu.py (hangman game / jeu du pendu)
 This exercice requiers some modular implementation based on the following file structure:
 
-- pendu.y: Hangman game main module
+- pendu.py: Hangman game main module
 - fonctions.py: Hangman game functions called in main module
 - donnees.py: Hangman game relevant data used in function or main module
 
