@@ -24,14 +24,14 @@ This file shows the use of randrange() function from random module and ceil() fu
             pass
         else: 
             ...
-### Third programming exercise: donnees.py, fonctions.py and pendu.py (hangman game / jeu du pendu)
+### Third programming exercise: donnees.py, fonctions.py and pendu.py (jeu du pendu)
 This exercice requiers some modular implementation based on the following file structure:
 
 - pendu.py: Hangman game main module
 - fonctions.py: Hangman game functions called in main module
 - donnees.py: Hangman game relevant data used in function or main module
 
-This program simulates another game, the Hangman game (jeu du pendu), where the player is given 8 attempts to guess a word, randomly chosen from a predefined list. If no attempt left, the player has lost and is virtually hanged.
+This program implements another game, the Hangman game (jeu du pendu), where the player is given 8 attempts to guess a word, randomly chosen from a predefined list. If no attempt left, the player has lost and is virtually hanged.
 
 This implementation also handles a scores file, updating all the different player's scores on every game.
 
